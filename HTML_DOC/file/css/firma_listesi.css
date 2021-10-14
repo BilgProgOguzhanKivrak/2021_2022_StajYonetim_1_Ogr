@@ -1,0 +1,66 @@
+.div {
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #ebf1f5;
+	border:3px solid #3c9ccc;
+	border-radius: 10px;
+	color: #825ab4;
+
+}
+
+.div1 {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ebf1f5;
+	border:3px solid #3c9ccc;
+	border-radius: 10px;
+	color: #825ab4;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.button {
+
+	background-color: #3498db;
+	color: #fff;
+	border: 2px solid #2980b9;
+	border-radius: 10px;
+	text-align: left;
+
+}
+
+.button:hover {
+
+	background-color: #2980b9;
+	color: #fff;
+	border: 2px solid #3498db;
+
+}
+
+.button1 {
+
+	background-color: #9b59b6;
+	color: #fff;
+	border: 2px solid #8e44ad;
+	border-radius: 10px;
+	text-align: left;
+
+}
+
+.button1:hover {
+
+	background-color: #8e44ad;
+	color: #fff;
+	border: 2px solid #9b59b6;
+
+}
+
+.alert_ozel {
+
+	margin-bottom: 5px;
+	border: 2px solid #9b59b6;
+
+}

@@ -1,0 +1,211 @@
+<html lang="tr">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<!-- Font Awesome 4 (İcon CSS) -->
+	<script src="https://kit.fontawesome.com/7f9b18d6ba.js"></script>
+
+	<!-- Özel CSS Linkleri -->
+	<!-- Örnek : <link rel="stylesheet" type="text/css" href="file/css/custom.css"> -->
+	<link rel="stylesheet" type="text/css" href="file/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="file/css/ogrenci_profil.css">
+	<link rel="stylesheet" type="text/css" href="file/css/responsive.css">
+
+
+	<!-- Site Ana Bileşenleri -->
+	<title>Öğrenci Listesi - Staj Yönetim Sistemi </title>
+	<meta >
+</head>
+<body>
+	<!-- Bu Kısım Header Kısmıdır Bu Kısımı Değiştirmeyiniz Değiştirmek İsterseniz Benden Bilgi Alınız. -->
+	<div class="container" style="margin-top: 10px;">
+		<div class="row align-items-center">
+			<!-- Bu Kısımda Logo Ve Başlık Alanı Yer Alacak. -->
+			<div class="col-md-1">
+				<a href="index.html"><center><img class="logo" src="file/img/logo.png"></center></a>
+			</div>
+			<div class="col-md-3">
+				<center><a href="index.html"><h3 class="hh mobil_hh">Staj Yönetim Projesi</h3></a></center>
+			</div>
+			<div class="col-md-8">
+				<ul class="nav justify-content-end" style="">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="firma-listesi.html"><strong><i class="fas fa-user-tie"></i>&nbsp;Firmalar</strong></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ogrenci-listesi.html"><i class="fas fa-users"></i>&nbsp;Öğrenciler</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="iletisim.html"><i class="fas fa-phone"></i>&nbsp;İletişim</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="index.html" tabindex="-1" aria-disabled="true"><i class="fas fa-sign-out-alt"></i>&nbsp;Çıkış Yap</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Mobil Menü -->
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light onavbar">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#" style="color: #9b59b6;">Staj Yönetim Projesi</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<hr style="margin-bottom: 0px; margin-top: 10px;">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="firma-listesi.html"><i class="fas fa-user-tie"></i>&nbsp;Firmalar</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="ogrenci-listesi.html"><i class="fas fa-users"></i>&nbsp;Öğrenciler</a>
+								</li>
+								
+								<li class="nav-item">
+									<a class="nav-link" href="iletisim.html"><i class="fas fa-phone"></i>&nbsp;İletişim</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="index.html"><i class="fas fa-sign-out-alt"></i>&nbsp;Çıkış Yap</a>
+								</li>
+							</div>
+						</div>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+		<!-- Header Kısımı Bitişi -->
+
+		<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="div">
+						<nav class="navbar navbar-expand-lg navbar-dark bg-light menu">
+							<div class="container-fluid">
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: #9b59b6;" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>&nbsp;Bölümlerimiz
+								</button>
+								<div class="collapse navbar-collapse" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<a class="nav-link active" aria-current="page" href="#" style="color: #9b59b6;"><strong><i class="fas fa-laptop"></i>&nbsp;Bilgisayar Programcılığı</strong></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="color: #9b59b6;"><strong><i class="fas fa-globe"></i>&nbsp;Dış Ticaret</strong></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="color: #9b59b6;"><strong><i class="fas fa-utensils"></i>&nbsp;Gıda Teknolojileri</strong></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="color: #9b59b6;"><strong><i class="fas fa-lira-sign"></i>&nbsp;İşletme Yönetimi</strong></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="color: #9b59b6;"><strong><i class="fas fa-calculator"></i>&nbsp;Muhasebe Ve Vergi Uygulamaları</strong></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" style="color: #9b59b6;" ><strong><i class="fas fa-drumstick-bite"></i>&nbsp;Et Ve Et Ürünleri</strong></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+
+						<h5 style="color: #825ab4; margin-left: 5px; margin-top: 30px;"><i class="fas fa-users"></i>&nbsp;İş Arayan Stajyerler</h5>
+						<div class="ogrenci">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col">
+										<div class="div0">
+											<center>
+												<img class="profil" src="file/img//profil.png">
+												<br>
+												<a href="#"><strong>Sadettin Yaycı</strong></a>
+											</center>
+										</div>
+									</div>
+									<div class="col">
+										<div class="div0">
+											<center>
+												<img class="profil" src="file/img/profil.png">
+												<br>
+												<a href="#"><strong>Eren Korkusuz</strong></a>
+											</center>
+										</div>
+									</div>
+									<div class="col">
+										<div class="div0">
+											<center>
+												<img class="profil" src="file/img/profil.png">
+												<br>
+												<a href="#"><strong>Beyza Seçil</strong></a>
+											</center>
+										</div>
+									</div>
+									<div class="col">
+										<div class="div0">
+											<center>
+												<img class="profil" src="file/img/profil.png">
+												<br>
+												<a href="#"><strong>Yiğit Öztürk</strong></a>
+											</center>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<h5 style="color: #825ab4; margin-left: 5px; margin-top: 30px;"><i class="fas fa-address-card"></i>&nbsp;Seçili Öğrencinin Bilgileri</h5>
+						<div class="bilgi">
+
+
+
+
+						</div>
+
+						<a href="iletisim.html"><p align="right"><button class="btn button btn-lg" style="margin-top: 20px" ><strong><i class="fas fa-external-link-alt"></i>&nbsp;İletişime Geç</strong></button></p></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Burası Footer Kısmı Bu Kısıma Müdahale Etmeyiniz Bu Kısım Sabit Kalacak Müdahile Edeceksiniz Bana Sorun. -->
+		<div class="container" style="margin-bottom: 25px;">
+			<div class="row">
+				<div class="col-md-12">
+
+					<nav class="navbar navbar-light bg-light nav_ozel">
+						<div class="container-fluid">
+							<span class="navbar-text text-left">
+								<strong style="text-align: left;" class="text-left">Staj Yönetim Projesi &copy; 2020</strong> | Bu Proje <font style="color: #9b59b6;">Bandırma Onyedi Eylül Üniversitesi</font> Tarafından Geliştirilmektedir. Tüm Hakları Saklıdır.
+							</span>
+						</div>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+		<!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
