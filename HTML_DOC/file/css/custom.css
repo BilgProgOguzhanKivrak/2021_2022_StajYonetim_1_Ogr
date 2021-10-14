@@ -1,0 +1,56 @@
+
+body {
+
+	background: url("../img/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+a {
+
+	color: #9b59b6;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	color: #8e44ad;
+}
+
+.logo {
+
+
+	height: 80px;
+
+}
+
+.hh {
+	color: #9b59b6;
+}
+
+.nav_ozel {
+
+	border:2px solid #3C9CCC;
+	border-radius: 10px;
+
+}
+
+.onavbar {
+
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border:3px solid #3c9ccc;
+	border-radius: 10px;
+	display: none;
+
+}
+
+.navbar-brand {
+
+	color: #9b59b6;
+
+}

@@ -1,0 +1,41 @@
+.div1 {
+  border: 3px solid #3c9ccc;
+  border-radius: 10px;
+  padding-top: 30px;
+  color: #825ab4;
+  padding-bottom: 30px;
+  background-color: #ebf1f5;
+}
+
+.img {
+
+  width: 50%;
+
+}
+
+.cizgi {
+
+  border-left: 3px solid gray;
+
+}
+
+.firma_resim {
+
+  padding: 10px;
+  border: 0px solid gray;
+  border-radius: 5px;
+
+}
+
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-control{
+ size: 25px;
+}
+
+.fa-calendar-plus{
+  color: gray;
+}

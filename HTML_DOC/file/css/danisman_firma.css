@@ -1,0 +1,40 @@
+.div {
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #ebf1f5;
+	border:3px solid #3c9ccc;
+	border-radius: 10px;
+	color: #825ab4;
+
+}
+
+.cizgi {
+
+	border-left:3px solid gray;
+
+}
+
+.button1 {
+
+	background-color: #3498db;
+	color: #fff;
+	border: 2px solid #2980b9;
+	border-radius: 10px;
+
+}
+
+.button1:hover {
+
+	background-color: #2980b9;
+	color: #fff;
+	border: 2px solid #3498db;
+
+}
+
+.uyari{
+
+	color: red;
+	font-size: 9px;
+
+}

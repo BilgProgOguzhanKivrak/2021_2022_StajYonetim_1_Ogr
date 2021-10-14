@@ -1,0 +1,41 @@
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  border: solid 3px;
+  border-color: #3c9ccc;
+  background-color: #ebf1f5;
+}
+
+#left-row {
+  display: contents;
+}
+#left-row input {
+  max-width: 60%;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: initial;
+}
+#left-row textarea {
+  margin-top: 10px;
+  max-width: 60%;
+  max-height: 50%;
+  display: initial;
+  border-radius: 10px;
+}
+
+h2 {
+	color: #9471c5;
+}
+
+#send-button {
+	max-width: 60%;;
+	margin-top: 10px;
+	height: 50px;
+	background: #3d9cce;
+	font-size: 20px;
+}
+
+#right-img {
+	width: 100%;
+}

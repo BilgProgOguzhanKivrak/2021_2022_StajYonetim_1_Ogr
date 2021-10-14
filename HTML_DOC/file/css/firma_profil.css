@@ -1,0 +1,74 @@
+.ml-10{
+	margin-left: 10px;
+
+}
+.ml-20{
+	margin-left: 20px;
+}
+.form-control{
+	color:#3C9CCC;
+}
+::-webkit-input-placeholder {
+	color:#3C9CCC !important;
+}
+
+:-ms-input-placeholder {
+	color:#3C9CCC !important;
+}
+
+::placeholder {
+	color:#3C9CCC !important;
+}
+
+@media(max-width:767px){
+	.control-label, .form-control {
+		width: 268px;
+	}
+}
+
+.form-control {
+	border: 2px solid #3C9CCC;
+	background: #EBF1F5;
+}
+
+.firma-sol,.firma-sag{
+	border:2px solid #3C9CCC;
+	border-radius: 9px;
+
+}
+
+.firma-img img{
+	border:2px solid #3C9CCC;
+	border-radius: 9px;
+
+}
+
+.wrapdiv{
+	background: #EBF1F5;
+	padding: 37px;
+	border: 2px solid #3C9CCC;
+	border-radius: 9px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #3C9CCC;
+	border-color: #3C9CCC;
+}
+@media(min-width:787px){
+	.firma-ust,.wrapdiv{
+		display: flex;
+	}
+	.firma-sag{
+		height: 350px;
+	}
+	.firma-img{
+		justify-content: flex-end;display: flex;
+	}
+	.save-btn{
+		float:right
+	}
+	.tml-20{
+		margin-left:20px;
+	}
+
+}

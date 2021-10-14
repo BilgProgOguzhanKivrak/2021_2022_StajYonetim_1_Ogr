@@ -1,0 +1,48 @@
+
+
+@media only screen and (max-width:768px) {
+	
+	.nav {
+		display: none;
+	}
+
+	.mobil_hh {
+		display: none;
+	}
+
+	.onavbar { display: block; }
+
+	.fa-res { display: none; }
+
+	.img_res { display: none;  }
+
+	.cizgi { border: 0px; }
+
+	.tml-20{
+		margin-top: 20px;
+	}
+
+}
+
+@media(min-width:787px){
+	.firma-ust,.wrapdiv{
+		display: flex;
+	}
+	.firma-sag{
+		height: 350px;
+	}
+	.firma-img{
+		justify-content: flex-end;display: flex;
+	}
+	.save-btn{
+		float:right
+	}
+	.tml-20{
+		margin-left:20px;
+	}
+
+	.control-label, .form-control {
+		width: 268px;
+	}
+
+}

@@ -1,0 +1,66 @@
+.duz-cerceve{
+	border:3px solid #3c9ccc ;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-color: #ebf1f5;
+}
+
+.stajyer-cerceve{
+	border:3px solid #3c9ccc ;
+	border-radius: 10px;
+	color:#825ab4;
+	padding: 20px 5px 20px 5px;
+
+}
+
+.danısman-cerceve{
+	border:3px solid #3c9ccc;
+	border-radius: 10px;
+	color:#825ab4;
+	padding: 20px;
+}
+
+.egitimci{
+	width: 50%;
+	display: table;
+	position: relative;
+	overflow: hidden;
+	text-align:center;
+	margin:0 auto;
+}
+
+hr {
+
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+}
+
+.firma-cerceve{
+	margin-top: 30px;
+	border:3px solid #3c9ccc ;
+	border-radius: 10px;
+	color:#825ab4;
+	padding: 20px;
+}
+
+.img {
+
+	width: 70%;
+
+}
+
+.div0 {
+
+	margin-top: 20px;
+
+}
+
+.firma-cerceve p {
+	color: #607080;
+}
+
+.firma-cerceve strong {
+	color: #825ab4;
+}
