@@ -1,0 +1,180 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF7204F5-A08D-4408-9E54-7347E825D5B5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StayYonetimProg</RootNamespace>
+    <AssemblyName>StayYonetimProg</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44377</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HTML_DOC\danisman-kayit.html" />
+    <Content Include="HTML_DOC\file\css\custom.css" />
+    <Content Include="HTML_DOC\file\css\danisman.css" />
+    <Content Include="HTML_DOC\file\css\danisman_firma.css" />
+    <Content Include="HTML_DOC\file\css\firma_listesi.css" />
+    <Content Include="HTML_DOC\file\css\firma_profil.css" />
+    <Content Include="HTML_DOC\file\css\giris.css" />
+    <Content Include="HTML_DOC\file\css\iletisim.css" />
+    <Content Include="HTML_DOC\file\css\index.css" />
+    <Content Include="HTML_DOC\file\css\ogrenci_bilgisi.css" />
+    <Content Include="HTML_DOC\file\css\ogrenci_profil.css" />
+    <Content Include="HTML_DOC\file\css\program_tanimlama.css" />
+    <Content Include="HTML_DOC\file\css\responsive.css" />
+    <Content Include="HTML_DOC\file\css\staj_raporu.css" />
+    <Content Include="HTML_DOC\file\css\yeni_sifre.css" />
+    <Content Include="HTML_DOC\file\img\background.jpg" />
+    <Content Include="HTML_DOC\file\img\banner_first_image.png" />
+    <Content Include="HTML_DOC\file\img\char.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\Akinsoft.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\akinsoft1.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\apple.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\firma-ornek-resim.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\hepsiburada.jpg" />
+    <Content Include="HTML_DOC\file\img\firma_logo\pngwing.com.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\samsung.png" />
+    <Content Include="HTML_DOC\file\img\firma_logo\samsung1.png" />
+    <Content Include="HTML_DOC\file\img\img.png" />
+    <Content Include="HTML_DOC\file\img\logo.png" />
+    <Content Include="HTML_DOC\file\img\mektup.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\can.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\egitimci.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\furkan.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\kübra.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\resim.jpg" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\rümeysa.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\sena.png" />
+    <Content Include="HTML_DOC\file\img\ogrenci_resim\ömer.png" />
+    <Content Include="HTML_DOC\file\img\product-screen.png" />
+    <Content Include="HTML_DOC\file\img\profil.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\facebook.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\in.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\instagram.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\twitter.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\whatsapp.png" />
+    <Content Include="HTML_DOC\file\img\sosyal_icon\youtube.png" />
+    <Content Include="HTML_DOC\firma-anasayfa.html" />
+    <Content Include="HTML_DOC\firma-kayit.html" />
+    <Content Include="HTML_DOC\firma-listesi.html" />
+    <Content Include="HTML_DOC\firma-profil.html" />
+    <Content Include="HTML_DOC\giris.html" />
+    <Content Include="HTML_DOC\iletisim.html" />
+    <Content Include="HTML_DOC\index.html" />
+    <Content Include="HTML_DOC\ogrenci-bilgisi.html" />
+    <Content Include="HTML_DOC\ogrenci-firma-listesi.html" />
+    <Content Include="HTML_DOC\ogrenci-listesi.html" />
+    <Content Include="HTML_DOC\program-tanimlama.html" />
+    <Content Include="HTML_DOC\staj-raporu.html" />
+    <Content Include="HTML_DOC\yeni-sifre.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59079</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44377/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
