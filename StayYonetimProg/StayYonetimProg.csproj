@@ -125,10 +125,34 @@
     <Content Include="HTML_DOC\program-tanimlama.html" />
     <Content Include="HTML_DOC\staj-raporu.html" />
     <Content Include="HTML_DOC\yeni-sifre.html" />
+    <Content Include="test\ControlLogin.ascx" />
+    <Content Include="test\WebTest.aspx" />
+    <Content Include="test\WebTest2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test\ControlLogin.ascx.cs">
+      <DependentUpon>ControlLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test\ControlLogin.ascx.designer.cs">
+      <DependentUpon>ControlLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="test\WebTest.aspx.cs">
+      <DependentUpon>WebTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test\WebTest.aspx.designer.cs">
+      <DependentUpon>WebTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test\WebTest2.aspx.cs">
+      <DependentUpon>WebTest2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test\WebTest2.aspx.designer.cs">
+      <DependentUpon>WebTest2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
