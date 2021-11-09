@@ -28,7 +28,9 @@
     <div class="dashboard-container">
         <div class="dashboard-heading">Kayıt ol</div>
             <div class="dashboard-content">
-            <a href="#" class="btn" onClick="companyRegister()">Firma kayıt</a> <a href="#" class="btn" onClick="advisorRegister()">Danışman kayıt</a>
+            <a href="#" class="btn" onClick="companyRegister()">Firma kayıt</a> 
+            <a href="#" class="btn" onClick="advisorRegister()">Danışman kayıt</a>
+            <a href="#" class="btn" onClick="studentRegister()">Öğrenci kayıt</a>
             <form class="companyRegister">
             <br>
             <p>Firma adı:</p>
@@ -38,7 +40,7 @@
             <p>Firma güvenlik şifresi:</p>
             <Input type="password" placeholder="Şifre"/>
             <br><br>
-            Hesabınız yok mu? <a style="text-decoration:none;"  href="./login.html">Hemen oluşturun</a>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
             <br><br><br>
             <a class="btn">Kayıt ol</a>
         </form>
@@ -53,10 +55,25 @@
             <p>Danışman şifresi:</p>
             <Input type="password" placeholder="Şifre"/>
             <br><br>
-            Hesabınız yok mu? <a style="text-decoration:none;"  href="/login">Hemen oluşturun</a>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
             <br><br><br>
             <a class="btn">Kayıt ol</a>
         </form>
+
+        <form class="studentRegister">
+            <br>
+            <p>Öğrenci adı:</p>
+            <Input type="text" placeholder="Öğrenci adı"/><br>
+            <p>Öğrenci email:</p>
+            <Input type="text" placeholder="Öğrenci email"/><br>
+            <p>Öğrenci şifresi:</p>
+            <Input type="password" placeholder="Şifre"/>
+            <br><br>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
+            <br><br><br>
+            <a class="btn">Kayıt ol</a>
+        </form>
+
         </div>
     </div>
     <div style="clear:left"></div>

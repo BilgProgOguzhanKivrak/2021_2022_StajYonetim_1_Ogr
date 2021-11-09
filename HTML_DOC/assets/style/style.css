@@ -351,7 +351,7 @@ input {
         text-align:center;
     }
 
-    .advisorRegister {
+    .advisorRegister, .studentRegister {
         display:none;
     }
 
