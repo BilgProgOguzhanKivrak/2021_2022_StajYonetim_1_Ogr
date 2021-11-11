@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staj Yönetim Sistemi | Bandırma On Yedi Eylül Üniversitesi</title>
+    <link rel="icon" href="../assets/logo.png">
+    <link rel="stylesheet" href="../assets/style/style.css">
+</head>
+<body>
+    <!--Dashboard Navbar-->
+    <div class="dashboard-navbar">
+        <a href="./index.html"><img class="logo-img" src="../assets/logo.png"></a>
+        <div id="menu">
+        <a href="#"><img class="icon" src="../assets/dashboard/home.svg"></a>
+        <br>
+        <a href="#"><img class="icon" src="../assets/dashboard/user.svg"></a>
+        <br>
+        <a href="#"><img class="icon" src="../assets/dashboard/app.svg"></a>
+        <br>
+        <a href="#"><img class="icon" src="../assets/dashboard/settings.svg"></a>
+        </div>
+    </div>
+    <!--Dashboard Navbar Ending-->
+
+    <!--Dashboard Container-->    
+    <div class="dashboard-container">
+        <div class="dashboard-heading">Kayıt ol</div>
+            <div class="dashboard-content">
+            <a href="#" class="btn" onClick="companyRegister()">Firma kayıt</a> 
+            <a href="#" class="btn" onClick="advisorRegister()">Danışman kayıt</a>
+            <a href="#" class="btn" onClick="studentRegister()">Öğrenci kayıt</a>
+            <form class="companyRegister">
+            <br>
+            <p>Firma adı:</p>
+            <Input type="text" placeholder="Firma adı"/><br>
+            <p>Firma email:</p>
+            <Input type="text" placeholder="Firma email"/><br>
+            <p>Firma güvenlik şifresi:</p>
+            <Input type="password" placeholder="Şifre"/>
+            <br><br>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
+            <br><br><br>
+            <a class="btn">Kayıt ol</a>
+        </form>
+
+
+        <form class="advisorRegister">
+            <br>
+            <p>Danışman adı:</p>
+            <Input type="text" placeholder="Danışman adı"/><br>
+            <p>Danışman email:</p>
+            <Input type="text" placeholder="Danışman email"/><br>
+            <p>Danışman şifresi:</p>
+            <Input type="password" placeholder="Şifre"/>
+            <br><br>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
+            <br><br><br>
+            <a class="btn">Kayıt ol</a>
+        </form>
+
+        <form class="studentRegister">
+            <br>
+            <p>Öğrenci adı:</p>
+            <Input type="text" placeholder="Öğrenci adı"/><br>
+            <p>Öğrenci email:</p>
+            <Input type="text" placeholder="Öğrenci email"/><br>
+            <p>Öğrenci şifresi:</p>
+            <Input type="password" placeholder="Şifre"/>
+            <br><br>
+            Hesabınız var mı? <a style="text-decoration:none;"  href="./login.html">Hemen giriş yapın</a>
+            <br><br><br>
+            <a class="btn">Kayıt ol</a>
+        </form>
+
+        </div>
+    </div>
+    <div style="clear:left"></div>
+    <!--Dashboard Container Ending-->
+</body>
+<script src="../assets/javascript/app.js"></script>
+</html>
