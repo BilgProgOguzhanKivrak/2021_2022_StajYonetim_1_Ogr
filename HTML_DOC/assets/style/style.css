@@ -89,8 +89,8 @@ header {
                 }
                 
                 .navbar {
-                padding:2.5%;
-                height:10%;
+                    padding:2.5%;
+                    height:10%;
                 
                 }
                 
@@ -99,8 +99,7 @@ header {
                 }
                 
                 .logo-heading {
-                font-size:200%;
-                
+                    font-size:200%;
                 }
                 
                 ul {
@@ -119,7 +118,7 @@ header {
                 li a {
                     text-decoration:none;
                     color:black;
-                        font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Nunito Sans', sans-serif;
                 }
                 
                 li a:hover {
@@ -132,7 +131,7 @@ header {
                     color:white;
                     text-decoration:none;
                     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-                border-radius: 50px;
+                    border-radius: 50px;
                     font-family: 'Nunito Sans', sans-serif;
                 }
                 
@@ -146,8 +145,8 @@ header {
                         display:block;
                     }
                     .float {
-                    float: none;
-                    display: block;
+                        float: none;
+                        display: block;
                     }
                 } 
 
@@ -326,8 +325,10 @@ input {
     /* Dashboard Container */
 
     .dashboard-container {
-        background-color:#e3e5e6;
-        height:100vh;
+        background-image:url("../background.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:100%;
         font-family: 'Nunito Sans', sans-serif;
     }
     
@@ -338,9 +339,7 @@ input {
         font-size:7vh;
         padding-top:0.5%;
         font-weight:300;
-         font-family: 'Roboto', sans-serif;
-    
-    
+        font-family: 'Roboto', sans-serif;
     }
     
     .dashboard-content {
